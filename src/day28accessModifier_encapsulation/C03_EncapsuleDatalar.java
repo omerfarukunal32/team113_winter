@@ -6,17 +6,17 @@ public class C03_EncapsuleDatalar {
 
     static private String isim = "Yildiz pazarlama";
 
-
-
      private int satisTutari;
+
+    public int toplamSatis;
+
+    public int x;
+
+    public int a;
 
     public int getToplamSatis() {
         return toplamSatis;
     }
-
-    private int toplamSatis;
-
-     public int a;
 
     public static String getIsim() {
         return isim;

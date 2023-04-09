@@ -44,9 +44,5 @@ public class C05_HashMapMethodlari {
         System.out.println(ornekMap); // {A=20, B=15, K=25, M=50, T=90}
 
 
-
-
-
-
     }
 }

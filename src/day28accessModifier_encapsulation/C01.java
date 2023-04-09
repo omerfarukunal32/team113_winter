@@ -2,7 +2,7 @@ package day28accessModifier_encapsulation;
 
 public class C01 {
 
-    String str; // class leverdaki her class uyesinin access modifier'i olur
+    String str; // class level'daki her class uyesinin access modifier'i olur
                 // eger access modifier gorunmuyorsa, Java o class uyesini
                 // default access modifier olarak isaretler
     static String s;

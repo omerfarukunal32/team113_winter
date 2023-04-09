@@ -6,21 +6,23 @@ public class EncapsulationKullanimi {
 
     public static void main(String[] args) {
 
-        System.out.println(C03_EncapsuleDatalar.getIsim());
+        System.out.println(C03_EncapsuleDatalar.getIsim());  // Yildiz pazarlama
         C03_EncapsuleDatalar obj = new C03_EncapsuleDatalar();
 
-        obj.setSatisTutari(100);
+        System.out.println(obj.toplamSatis); // read
+        obj.toplamSatis=100;  // write
+
+        // System.out.println(obj.satisTutari); // read
+        // obj.satisTutari=100;  // write
+
+        obj.setSatisTutari(100);  // satisTutari static degil, o yuzden obje uzerinden
         obj.setSatisTutari(200);
         obj.setSatisTutari(300);
 
-
         System.out.println("Toplam satis :" +obj.getToplamSatis()); // 600
-
-        // obj.=60000; baskasi degisiklik yapamaz
 
     }
 }
-
 /*
     C03_EncapsuleDatalar  class'indaki
     isim variable'inin degeri gorunsun ama degistirilemesin
@@ -28,13 +30,10 @@ public class EncapsulationKullanimi {
 
     Eger bir variable icin read veya write ozelliklerinden
     birbirinden ayrilmasi isteniyorsa
-    oncelikle access modifier ile kimsenin ulamamasini saglayin
+    oncelikle access modifier ile kimsenin ulasamamasini saglayin
 
     Private yaparak kimsenin ulasamayacagini garantiye aldiktan sonra
 
     READ yetkisi icin getter()
     WRITE icin setter()  olusturmaliyiz
-
-
-
  */

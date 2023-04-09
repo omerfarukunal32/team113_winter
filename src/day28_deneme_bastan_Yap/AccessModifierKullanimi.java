@@ -7,11 +7,14 @@ public class AccessModifierKullanimi {
     public static void main(String[] args) {
 
         C03_EncapsuleDatalar obj = new C03_EncapsuleDatalar();
-        System.out.println(obj.getToplamSatis()); // read
+        System.out.println(obj.a); // read
         obj.a= 100; // write
 
         //System.out.println(obj.satisTutari); // read
         //obj.satisTutari = 100; // write
+
+        // C03_EncapsuleDatalar.x=20; x static degil, main method satatic
+        obj.x=5;  // o sebeple o class uzerinde olusturulan bir obje ile ulastim
 
 
 

@@ -13,5 +13,6 @@ public class C02 {
         C01.a=50;
         obj.d=40;
 
+
     }
 }

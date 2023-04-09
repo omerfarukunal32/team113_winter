@@ -3,7 +3,7 @@ package day44_Maps_enrysets;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class C03_Compute_sonuAnlamadim {
+public class C03_Compute {
     public static void main(String[] args) {
         /*
             Verilen String bir array'de her bir harfin kacar defa kullanildigini yazdiralim
