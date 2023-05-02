@@ -12,7 +12,7 @@ public class C03_toUpperCase_toLowerCase {
         System.out.println(str.toUpperCase()); // JAVA CANDIR
         System.out.println(str); // Java Candir
 
-        // String Manipulation yaptktan sonra asil variable'1 atama yapilmaz ise, asil Variable degismez
+        // String Manipulation yaptktan sonra asil variable'a atama yapilmaz ise, asil Variable degismez
 
         str=str.toUpperCase();
 
