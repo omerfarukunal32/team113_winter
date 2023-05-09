@@ -42,6 +42,7 @@ public class FTatliSuBaliklari extends EBalik{
 
         AHayvan yayin = new FTatliSuBaliklari();
 
+
         /*
             Abstract class'larin constructor'lari vardir
             ama obje olusturulamz

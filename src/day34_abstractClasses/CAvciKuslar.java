@@ -29,6 +29,7 @@ public class CAvciKuslar extends BKuslar{
         CAvciKuslar kartal = new CAvciKuslar();
         CAvciKuslar sahin = new CAvciKuslar();
 
+
         // BKuslar kus = new BKuslar();
 
         AHayvan baykus = new CAvciKuslar();
